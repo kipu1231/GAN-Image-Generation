@@ -1,5 +1,7 @@
 # GAN-Image-Generation
-Implementation of GAN to generate faces based on random numbers.
+Implementation of two models. First, a Generative Adversial Network (GAN) is trained to generate faces based on random numbers. Second, an Auxiliary Classifier GAN (ACGAN) is trained to generate faces with certain attributes (in this case: smiling).
+
+### Results
 
 # Usage
 
