@@ -2,6 +2,7 @@
 Implementation of two models. First, a Generative Adversial Network (GAN) is trained to generate faces based on random numbers. Second, an Auxiliary Classifier GAN (ACGAN) is trained to generate faces with certain attributes (in this case: smiling).
 
 ### Results
+![alt text](https://github.com/kipu1231/GAN-Image-Generation/blob/master/Results/fig_gan.jpg)
 
 # Usage
 
