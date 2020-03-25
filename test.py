@@ -36,8 +36,8 @@ if __name__ == '__main__':
     if not os.path.exists(args.save_dir):
         os.makedirs(args.save_dir)
 
-    file_name_p1 = os.path.join(args.save_dir, "fig1_2.jpg")
-    file_name_p2 = os.path.join(args.save_dir, "fig2_2.jpg")
+    file_name_p1 = os.path.join(args.save_dir, "fig_gan.jpg")
+    file_name_p2 = os.path.join(args.save_dir, "fig_acgan.jpg")
 
     in_noise1 = torch.randn(32, 100, 1, 1)
     in_noise2a = torch.randn(10, 101, 1, 1)
